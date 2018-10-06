@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Pokedex</string>
+    <string name="poke_name">Pokemon:</string>
+    <string name="height_mon">Height:</string>
+    <string name="weight_mon">Weight:</string>
+    <string name="category_mon">Category:</string>
+    <string name="hp_mon">HP:</string>
+    <string name="attack_mon">Attack:</string>
+    <string name="defense_mon">Defense:</string>
+    <string name="sa_mon">Special Attack:</string>
+    <string name="speed_mon">Speed:</string>
+</resources>
