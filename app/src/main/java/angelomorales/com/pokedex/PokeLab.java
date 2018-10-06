@@ -12,16 +12,16 @@ public class PokeLab {
     private List<Pokemon> mPokemons;
 
     public static PokeLab get(Context context) {
-        if (sCrimeLab == null) {
-            sCrimeLab = new PokeLab(context);
+        if (sPokeLab == null) {
+            sPokeLab = new PokeLab(context);
         }
-        return sCrimeLab;
+        return sPokeLab;
     }
     private PokeLab(Context context) {
         mPokemons = new ArrayList<>();
         for (int i = 0; i < 100; i++) {
             Pokemon pokemon = new Pokemon();
-            pokemon.setTitle("Crime #" + i);
+            pokemon.setTitle("Pokemon #" + i);
             pokemon.setSolved(i % 2 == 0); // Every other one
             mPokemons.add(pokemon);
         }
